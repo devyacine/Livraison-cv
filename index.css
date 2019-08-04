@@ -1,23 +1,33 @@
-:left {
-    background-color: rgb(171, 199, 55);
-    width: 25%;
-    border: solid 1px;
-    border-color: black;
-    border-radius: 20px;
-    margin-left: 300px;
-    height: 150px;
-    padding: 5px;
+body {
+    background-attachment: fixed;
+    background-image: "cv.jpg"
 }
 
- :right {
-    background-color: rgb(171, 199, 55);
-    width: 70%;
-    border: solid 1px;
-    border-color: black;
-    border-radius: 20px;
-    margin-left: 500px;
+section {
+    width: 1200x;
+    height: 200;
+    font-size: 15px;
+    float: right
+}
+
+aside {
+    width: 250px;
+    height: 50;
+    float: left
 }
 
 h1 {
-    color: cadetblue
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    font-size: 15px;
+    width: 1200px;
+    float: right
+}
+
+tr {
+    text-align: left;
+    padding: 50px
 }
